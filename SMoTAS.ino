@@ -67,7 +67,7 @@ void setup() {
   pinMode(ledGreenPin, OUTPUT);
   pinMode(ledBluePin, OUTPUT);
 
-  lcd.begin(16, 2);     // Send LCD intialization sequence: sets mode, clears memory, configures display geometry [1]
+  lcd.begin(16, 2);     // Send LCD initialization sequence: sets mode, clears memory, configures display geometry [1]
 
   showState(currentState);      // Immediately updates LCD and LED to visually confirm startup state
 }
